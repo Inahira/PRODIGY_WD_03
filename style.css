@@ -1,0 +1,20 @@
+
+    .square {
+        width: 100px;
+        height: 100px;
+        border: 2px solid #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 36px;
+        cursor: pointer;
+    }
+    .row {
+        margin-bottom: -2px;
+    }
+    .winner {
+        background-color: #ffd700 !important;
+    }
+    .tie {
+        background-color: #c0c0c0 !important;
+    }
