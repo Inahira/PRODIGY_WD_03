@@ -1,20 +1,70 @@
+body {
+    background-color: rgb(29, 12, 44);
+}
+.container {
+    box-sizing: border-box;
+    box-shadow: 0, 2, 10, 5, #111;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(66, 35, 94, 0.603);
+}
 
-    .square {
-        width: 100px;
-        height: 100px;
-        border: 2px solid #333;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 36px;
-        cursor: pointer;
-    }
-    .row {
-        margin-bottom: -2px;
-    }
-    .winner {
-        background-color: #ffd700 !important;
-    }
-    .tie {
-        background-color: #c0c0c0 !important;
-    }
+.row {
+    margin-bottom: -2px;
+}
+
+#b1{ 
+    border-bottom: 1px solid gray; 
+    border-right: 1px solid gray; 
+} 
+  
+#b2 { 
+    border-bottom: 1px solid gray; 
+    border-right: 1px solid gray; 
+    border-left: 1px solid gray; 
+} 
+  
+#b3 { 
+    border-bottom: 1px solid gray; 
+    border-left: 1px solid gray; 
+} 
+  
+#b4 { 
+    border-top: 1px solid gray; 
+    border-bottom: 1px solid gray; 
+    border-right: 1px solid gray; 
+} 
+      
+#b5 { 
+    border: 1px solid gray; 
+} 
+  
+#b6 { 
+    border-top: 1px solid gray; 
+    border-bottom: 1px solid gray; 
+    border-left: 1px solid gray; 
+} 
+  
+#b7 { 
+    border-top: 1px solid gray; 
+    border-right: 1px solid gray; 
+} 
+  
+#b8 { 
+    border-top: 1px solid gray; 
+    border-right: 1px solid gray; 
+    border-left: 1px solid gray; 
+} 
+  
+#b9 { 
+    border-top: 1px solid gray; 
+    border-left: 1px solid gray; 
+} 
